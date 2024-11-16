@@ -1,0 +1,7 @@
+{
+  "name": "family-cart-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
