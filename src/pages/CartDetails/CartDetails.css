@@ -1,0 +1,8 @@
+.page-container {
+    padding-top: var(--ion-safe-area-top);
+    padding-bottom: var(--ion-safe-area-bottom);
+    padding-left: var(--ion-safe-area-left);
+    padding-right: var(--ion-safe-area-right);
+    margin-left: 10px;
+    margin-right: 10px;
+}

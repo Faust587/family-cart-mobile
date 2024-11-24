@@ -7,8 +7,11 @@ module.exports = {
     'plugin:react/recommended',
     'eslint:recommended'
   ],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
-    ecmaVersion: 2020
+    browser: true,
+    es2021: true,
+    sourceType: "module"
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
